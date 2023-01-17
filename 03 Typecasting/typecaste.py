@@ -1,7 +1,18 @@
-# typecasting = The process of converting a value of one data type to another (string,integer,float,boolean)
+# ---> typecasting = The process of converting a value of one data type to another (string,integer,float,boolean)
 
-# Explicit Vs Implicit
+# ---> Explicit Vs Implicit
 
+# ---> Implicit Conversion
+'''
+x = 4.5
+y = 2
+z = x/y     # here python automatically coverted the resulted value into float
+
+print(z,type(z))
+print(name_str,type(name_str))
+'''
+
+# ---> Explicit Conversion
 '''
 name = "Jeetu"
 age = 25
