@@ -1,4 +1,4 @@
-# ---> variable = variable is a container which hold the data and create memory allocation for the date. We can also say that variable is a label for the data like yourName, age, mobileNumber, address ect.
+# ---> variable = variable is a container which hold the data and create memory allocation for the data. We can also say that variable is a label for the data like yourName, age, mobileNumber, address etc.
 
 full_name = "Jeetu Dewangan"
 
