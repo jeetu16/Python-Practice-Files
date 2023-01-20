@@ -1,6 +1,7 @@
 # ---> String
 '''
 # string = In Python, strings can be created by enclosing the character or the sequence of characters in the quotes. Python allows us to use single quotes, double quotes and triple quote to define a string.
+# 'str' object does not support item assignment
 
 # name = """Jeetu"""
 # print(name)
