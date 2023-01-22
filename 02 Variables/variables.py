@@ -5,10 +5,10 @@ full_name = "Jeetu Dewangan"
 # 3 different way to output a variable along with the syntax
 
 # print("My name is ",full_name)
-# print("My name is "+full_name)
+# print("My name is " + full_name)
 # print(f'My name is {full_name}')
 
-# ---> Basic Date Types
+# ---> Basic Data Types
 
 # ---> Number 
 
