@@ -38,7 +38,7 @@ print(name,type(name))  # True 'bool'
 
 # ---> boolean to string conversion
 student = str(student)
-print(student,type(student))    # True 'str'
+print(student,type(student))    # 'True'  'str'
 '''
 
 
@@ -59,7 +59,7 @@ name2 = ""
 name = bool(name)
 name2 = bool(name2) # except empty string ("",'') in boolean everything is True value considering only String here
 print(name,type(name))      # True 'bool'
-print(name2,type(name2))    # False 'False'
+print(name2,type(name2))    # False 'bool'
 '''
 
 # ---> int,float to string
@@ -68,8 +68,8 @@ number = 250
 float_num = 20.3
 number = str(number)
 float_num = str(float_num)
-print(number,type(number))          # 250 'str'
-print(float_num,type(float_num))    # 20.3 'str'
+print(number,type(number))          # '250'  'str'
+print(float_num,type(float_num))    # '20.3'  'str'
 '''
 
 # ---> string to int,float
