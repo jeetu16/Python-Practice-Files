@@ -112,9 +112,18 @@ print(currencies.popitem())     # ('Japan','Yen')
 
 # 10 dict.setdefault() : This method insert the key value pair in last of the dictionary. If key is already present in the dictionary then it doesn't insert the given key value in dictionary and returns the already present value of given key. 
 
+# currencies = {'USA': 'Dollar', 'India': 'Indian Rupees',
+#               'UK': 'Pound', 'Japan': 'Yen'}
+# print(currencies.setdefault('China', 'Chinese Yuan'))
+# print(currencies.setdefault('India','Rupees'))
+# print(currencies)
 
-currencies = {'USA': 'Dollar', 'India': 'Indian Rupees',
-              'UK': 'Pound', 'Japan': 'Yen'}
-print(currencies.setdefault('China', 'Chinese Yuan'))
-print(currencies.setdefault('India','Rupees'))
-print(currencies)
+
+
+# dictionary comprehension
+
+states = ['CG','MP','MH','PB']
+capitals = ['Raipur','Bhopal',"Mumbai",'Chandigarh']
+
+combo_dictionary = {st:cp for st,cp in zip(states,capitals)}
+print(combo_dictionary)
